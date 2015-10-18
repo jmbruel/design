@@ -1,0 +1,12 @@
+---
+title: JMB's Homepage
+overview: true
+---
+= Papyrus Resources
+:layout: page
+:permalink: /home/
+
+include::definitions.txt[]
+
+Welcome to my unofficial {Papyrus} website that collects tutorials,
+videos and other teaching materials around the {UML}/{SysML} modeling tool.
