@@ -18,6 +18,5 @@ puts "Hello, World!"
 - Professor at University of Toulouse, France
 - Mainly teaching at IUT de Blagnac
 
-[WARNING]
-This is my brand new web site, so if you found
+WARNING: This is my brand new web site, so if you found
 any error from the previous content you used to find, please let me know.

@@ -28,6 +28,7 @@ echo -e "cp _site successfull\n"
 cd ../design.gh-pages
 git config --global user.email "jbruel#travis@gmail.com"
 git config --global user.name "Jean-Michel Bruel"
+git config --global push.default simple
 git add -A .
 echo -e "git add successfull\n"
 
