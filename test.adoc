@@ -1,0 +1,23 @@
+---
+---
+= Sample Page
+:layout: page
+:permalink: /page/
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+[source,ruby]
+----
+puts "Hello, World!"
+----
+
+== Jean-Michel Bruel
+
+- Researcher at IRIT (CNRS Research Laboratory UMR 5505)
+- Professor at University of Toulouse, France
+- Mainly teaching at IUT de Blagnac
+
+[WARNING]
+This is my brand new web site, so if you found
+any error from the previous content you used to find, please let me know.
