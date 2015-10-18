@@ -19,7 +19,7 @@ rm -rf ../design.gh-pages
 git clone https://${GH_TOKEN}@github.com/jmbruel/design.git ../design.gh-pages
 
 # copy generated HTML site to `gh-pages' branch
-cp -R _site/* ../eshepelyuk.github.io.gh-pages
+cp -R _site/* ../design.gh-pages
 
 # commit and push generated content to `gh-pages' branch
 # since repository was cloned in write mode with token auth - we can push there
