@@ -1,6 +1,7 @@
 # Site settings
 lastupdate: 18/10/2015
 title: Papyrus Resources
+me: Jean-Michel Bruel
 email: bruel@irit.fr
 baseurl: "/design" # the subpath of your site, e.g. /blog/
 url: "http://jmbruel.github.io" # the base hostname & protocol for your site

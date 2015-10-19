@@ -7,5 +7,44 @@ overview: true
 
 include::definitions.txt[]
 
+// Fork me on Github on main page
+++++
+<a href="https://github.com/jmbruel/design">
+  <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png">
+</a>
+++++
+
 Welcome to my unofficial {Papyrus} website that collects tutorials,
 videos and other teaching materials around the {UML}/{SysML} modeling tool.
+
+++++
+<section class="features">
+  <div class="grid">
+    <div class="unit one-third">
+      <h2>Basic</h2>
+      <p>
+        You begin with Papyrus and/or want the information about install and
+        starting points.
+      </p>
+      <a href="/basic/">Follow the guide →</a>
+    </div>
+    <div class="unit one-third">
+      <h2>Advanced</h2>
+        <p>You are already a Papyrus user but don't know how to solve your
+        particular problem, or simply want to learn advanced features.
+        </p>
+      <a href="/advanced/">We have some tips for you →</a>
+    </div>
+    <div class="unit one-third">
+      <h2>Specific</h2>
+      <p>
+        You want to learn how to tune Papyrus for your own usage, or how to use
+        some specific version of Papyrus (MARTE, RT, ...) or even build a DSL with
+        Papyrus.
+      </p>
+      <a href="/specific/">Here are the explanations →</a>
+    </div>
+    <div class="clear"></div>
+  </div>
+</section>
+++++

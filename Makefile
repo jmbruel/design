@@ -1,3 +1,4 @@
+default: build
 build:
 		bundle exec jekyll build
 preview:

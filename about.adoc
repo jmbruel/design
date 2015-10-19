@@ -1,0 +1,14 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+include::definitions.txt[]
+
+This web site has been developped by mailto:{email}[{me}] using the following (open and free) tools:
+
+- https://jekyllrb.com/[Jekyll]
+- http://asciidoctor.org[Asciidoctor]
+- The http://git-scm.com/[git] version control system
+- The http://foundation.zurb.com/[Foundation] framework
+- The https://travis-ci.org/[Travis] Continuous Integration tool

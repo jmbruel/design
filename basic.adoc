@@ -1,0 +1,8 @@
+---
+layout: page
+title: Basic
+permalink: /basic/
+---
+include::definitions.txt[]
+
+icon:warning[] Under construction!
