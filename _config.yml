@@ -1,12 +1,12 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+lastupdate: 18/10/2015
+title: JMB's Website
+email: bruel@irit.fr
 github_username: jmbruel
 twitter_username: jmbruel
+linkedin_username: jmbruel
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Baked with Jekkyl, Asciidoctor.
 baseurl: "/design" # the subpath of your site, e.g. /blog/
 url: "http://jmbruel.github.io" # the base hostname & protocol for your site
 
