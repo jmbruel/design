@@ -12,12 +12,13 @@ set -e
 # build site with jekyll, by default to `_site' folder
 bundle exec jekyll build
 
-# cleanup
-rm -rf ../design.gh-pages
-
 #clone `gh-pages' branch of the repository using encrypted GH_TOKEN for authentification
 git clone https://${GH_TOKEN}@github.com/jmbruel/design.git ../design.gh-pages
 echo -e "Clone successfull\n"
+
+# cleanup
+rm -rf ../design.gh-pages/*
+
 
 # copy generated HTML site to `gh-pages' branch
 cp -R _site/* ../design.gh-pages
