@@ -13,7 +13,7 @@ set -e
 bundle exec jekyll build
 
 #clone `gh-pages' branch of the repository using encrypted GH_TOKEN for authentification
-git clone https://${GH_TOKEN}@github.com/jmbruel/design.git ../design.gh-pages
+git clone --branch gh-pages https://${GH_TOKEN}@github.com/jmbruel/design.git ../design.gh-pages
 echo -e "Clone successfull\n"
 
 # cleanup
@@ -26,7 +26,6 @@ echo -e "cp _site successfull\n"
 # commit and push generated content to `gh-pages' branch
 # since repository was cloned in write mode with token auth - we can push there
 cd ../design.gh-pages
-git checkout gh-pages
 echo -e "checkout gh-pages successfull\n"
 
 git config --global user.email "jbruel#travis@gmail.com"
