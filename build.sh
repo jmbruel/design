@@ -26,6 +26,9 @@ echo -e "cp _site successfull\n"
 # commit and push generated content to `gh-pages' branch
 # since repository was cloned in write mode with token auth - we can push there
 cd ../design.gh-pages
+git checkout gh-pages
+echo -e "checkout gh-pages successfull\n"
+
 git config --global user.email "jbruel#travis@gmail.com"
 git config --global user.name "Jean-Michel Bruel"
 git config --global push.default simple
