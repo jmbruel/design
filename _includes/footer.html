@@ -5,7 +5,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li>Jean-Michel Bruel</li>
           <li><a href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-lg"></i> {{ site.email }}</a></li>
         </ul>
       </div>
@@ -26,16 +26,29 @@
 
           {% if site.linkedin_username %}
             <a href="https://fr.linkedin.com/in/{{ site.twitter_username }}">
-              <i class="fa fa-linkedin fa-lg"></i>
+              <i class="fa fa-linkedin-square fa-lg"></i>
             </a>
           {% endif %}
+
+          {% if site.googleplus_username %}
+            <a href="https://plus.google.com/+{{ site.googleplus_username }}">
+              <i class="fa fa-google-plus fa-lg"></i>
+            </a>
+          {% endif %}
+
+          {% if site.facebook_username %}
+            <a href="https://www.facebook.com/{{ site.facebook_username }}">
+              <i class="fa fa-facebook-square fa-lg"></i>
+            </a>
+          {% endif %}
+          <p>Licence <a href="http://creativecommons.org/licenses/by-sa/3.0/" alt="CC" link="_blank">
+          <i class="fa fa-cc fa-lg"></i></a>
+          </p>
       </div>
 
       <div class="footer-col  footer-col-3">
-        <ul class="contact-list">
-          <li><i class="fa fa-gears fa-lg"></i>&nbsp;{{ site.description }}</li>
-          <li>Last update: {{ site.lastupdate }}</li>
-        </ul>
+          <p class="text"><i class="fa fa-gears fa-lg"></i> Baked with <a href="https://jekyllrb.com/" alt="Jekkyl" link="_blank">Jekkyl</a> and <a href="http://asciidoctor.org/" alt="Asciidoctor" link="_blank">Asciidoctor</a>. Hosted on <a href="https://github.com/" alt="Github" link="_blank">Github</a>.
+          Last update: {{ site.lastupdate }}</p>
       </div>
     </div>
 
