@@ -19,7 +19,6 @@ echo -e "Clone successfull\n"
 # cleanup
 rm -rf ../design.gh-pages/*
 
-
 # copy generated HTML site to `gh-pages' branch
 cp -R _site/* ../design.gh-pages
 echo -e "cp _site successfull\n"
@@ -39,5 +38,5 @@ echo -e "git add successfull\n"
 git commit -a -m "Travis build #$TRAVIS_BUILD_NUMBER pushed to gh-pages [skip CI]"
 echo -e "git commit successfull\n"
 
-git push origin gh-pages > /dev/null 2>&1
+git push -f origin gh-pages > /dev/null 2>&1
 echo -e "Done magic with output\n"
