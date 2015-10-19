@@ -1,18 +1,18 @@
 <ul>
   <li class="{% if page.overview %}current{% endif %}">
-    <a href="/">Home</a>
+    <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
   </li>
   <li class="{% if page.url contains '/basic/' %}current{% endif %}">
-    <a href="/basic/">Basic</a>
+    <a href="{{ "/basic/" | prepend: site.baseurl }}">Basic</a>
   </li>
   <li class="{% if page.url contains '/advanced/' %}current{% endif %}">
-    <a href="/advanced/">Advanced</a>
+    <a href="{{ "/advanced/" | prepend: site.baseurl }}">Advanced</a>
   </li>
   <li class="{% if page.url contains '/specific/' %}current{% endif %}">
-    <a href="/specific/">Specific</a>
+    <a href="{{ "/specific/" | prepend: site.baseurl }}">Specific</a>
   </li>
   <li class="{% if page.url contains '/about/' %}current{% endif %}">
-    <a href="/about/">About...</a>
+    <a href="{{ "/about/" | prepend: site.baseurl }}">About...</a>
   </li>
 <!--
   <li class="{% if page.url contains '/docs/' %}current{% endif %}">
