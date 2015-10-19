@@ -1,5 +1,7 @@
 :definitions:
 :slidesurl: http://jmbhome.herokuapp.com/talks
+:me: Jean-Michel Bruel
+:email: bruel@irit.fr
 
 //Layouts
 :standHeight: 250
