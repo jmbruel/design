@@ -35,5 +35,5 @@ echo -e "git add successfull\n"
 git commit -a -m "Travis build #$TRAVIS_BUILD_NUMBER pushed to gh-pages [skip CI]"
 echo -e "git commit successfull\n"
 
-git push -fq origin gh-pages > /dev/null 2>&1
+git push origin gh-pages > /dev/null 2>&1
 echo -e "Done magic with output\n"
