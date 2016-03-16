@@ -1,15 +1,23 @@
 ---
 layout: default
 ---
-<div class="post">
+<header class="post-header">
+<!--  <h1 class="post-title">{{ page.title }}</h1> -->
+  {% include post-meta.html post=page %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+  {% if site.twitter_share %}
+  <a class="twitter-share-button" data-count="none" data-via="{{site.twitter_username}}" href="https://twitter.com/share">Tweet</a>
+  {% endif %}
 
-  <article class="post-content">
-    {{ content }}
-  </article>
+  {% if site.facebook_share %}
+  <div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button"></div>
+  {% endif %}
+</header>
+
+<article class="post-content">
+  {{ content }}
+</article>
 
 </div>
+
+{% include disqus.html %}

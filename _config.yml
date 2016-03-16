@@ -1,18 +1,26 @@
-# Site settings
-lastupdate: 19/10/2015
+# ------------- Site settings -------------
+lastupdate: 21/10/2015
 title: Papyrus Resources
 me: Jean-Michel Bruel
 email: bruel@irit.fr
 baseurl: "/design" # the subpath of your site, e.g. /blog/
 url: "http://jmbruel.github.io" # the base hostname & protocol for your site
 repository: https://github.com/jmbruel/design
+description: Papyrus teaching materials
+google_analytics: false
+facebook_share: true
+twitter_share: true
+disqus_shortname: jmbruel
+# ------------- Variables -------------
 github_username: jmbruel
 twitter_username: jmbruel
 linkedin_username: jmbruel
 googleplus_username: JeanMichelBruel
 facebook_username: jmbruel
-description: Papyrus teaching materials
-# Build settings
+papyrus: <a href="https://www.eclipse.org/papyrus/">Papyrus</a>
+uncheckedStatus: question-circle
+# ------------- Build settings -------------
+
 markdown: kramdown
 
 gems:
@@ -25,4 +33,4 @@ asciidoctor:
     - pygments-css=style
     - icons=font
 
-exclude: [vendor]
+exclude: [vendor,*.sh]
