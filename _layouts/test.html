@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<ul>
+{% for basics in site.data.basics %}
+  <li>
+    <a href="https://{{ basics.url }}">
+      {{ basics.title }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

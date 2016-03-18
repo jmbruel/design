@@ -1,0 +1,6 @@
+---
+layout: post
+---
+= Sample Page
+:layout: test
+:permalink: /liste/
