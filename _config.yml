@@ -33,4 +33,4 @@ asciidoctor:
     - pygments-css=style
     - icons=font
 
-exclude: [vendor,*.sh]
+#exclude: [vendor,*.sh]
