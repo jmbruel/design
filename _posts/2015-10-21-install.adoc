@@ -1,0 +1,13 @@
+---
+title: Install instructions
+tags:
+- basic
+- install
+status: unchecked
+excerpt: |
+    Basic instruction about installing Papyrus...
+---
+:papyrus: Papyrus
+= Install instructions
+
+To install {papyrus} in your system...

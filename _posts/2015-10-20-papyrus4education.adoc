@@ -1,0 +1,18 @@
+---
+title: Papyrus4Education
+tags:
+- basic
+- install
+status: checked
+excerpt: |
+    Basic instruction about installing Papyrus4Eduction...
+---
+:p4E: Papyrus4Education
+= Install instructions
+
+{p4E} is a simplified version of Papyrus...
+
+//------------ If checked mention here references -----------
+// Checked by: JMB on 2015-10-21
+// source:
+//-----------------------------------------------------------

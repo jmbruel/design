@@ -1,0 +1,15 @@
+---
+title: Overall presentation
+tags:
+- basic
+status: checked
+excerpt: false
+---
+= Overall presentation
+
+http://www.eclipse.org/modeling/mdt/?project=papyrus[Papyrus] is an open source component of the <<MDT,Model Development Tools (MDT)>> subproject to provide an integrated environment for editing <<MDT-UML2,UML>> and <<SysML,SysML>> models. Specially, this project provides the glue around valuable UML and SysML diagram editors (<<GMF,GMF>>-based or not) and other MDE tools. It also offers support for UML and SysML profiling mechanisms.
+
+//------------ If checked mention here references -----------
+// Checked by: JMB on 2015-10-21
+// source: https://wiki.eclipse.org/index.php?title=Papyrus&action=edit&section=1
+//-----------------------------------------------------------
